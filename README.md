@@ -12,5 +12,5 @@
 ![](./img/img_3.png)
 
 ## 使用说明
-1、可以设置页面导入数据，数据格式参考xlsx中示例数据.xlsx
-2、voicevox可以本地部署,地址是:https://github.com/VOICEVOX/voicevox 填入:http://localhost:50021
+1. 可以设置页面导入数据，数据格式参考xlsx中示例数据.xlsx
+2. [voicevox](https://github.com/VOICEVOX/voicevox)可以本地部署, 填入**http://localhost:50021**

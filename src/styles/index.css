@@ -1,0 +1,36 @@
+/* 在你的 CSS 文件中 */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  /* 自定义滚动条样式 */
+  /* Chrome, Safari 和 Edge */
+  ::-webkit-scrollbar {
+    width: 2px; /* 滚动条宽度 */
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; /* 滚动条背景 */
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #e2e2e2; /* 滚动条滑块颜色 */
+    border-radius: 10px; /* 滚动条滑块圆角 */
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #fff; /* 鼠标悬停时的颜色 */
+  }
+
+  /* Firefox */
+  scrollbar-width: thin; /* 滚动条宽度 */
+  scrollbar-color: #e2e2e2 #f1f1f1; /* 滚动条滑块颜色和背景 */
+
+  /* 适用于整个文档 */
+  /* 确保在 Firefox 中应用 */
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: #e2e2e2 #f1f1f1;
+  }
+}
